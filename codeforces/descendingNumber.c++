@@ -8,7 +8,7 @@ int main() {
             cout << endl;
         }
 
-        cout <<  i << "\t";
+        cout <<  i << "\t" ;
     }
 
     return 0;
