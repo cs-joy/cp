@@ -3,91 +3,70 @@
 using namespace std;
 
 int main() {
-
-    int a, b;
+    int a,b;
     cin >> a >> b;
-
-    if(a <= b){
-        if(1 <= a <= 9 && 1 <= b <= 9)
+    if(a<=9 && a<=b && a>= 1)
+    {
+        switch(a)
         {
-            
-                // for a
-                if(a == 1){
-                    cout << "one\n";
-                }
-                else if(a == 2){
-                    cout << "two\n";
-                }
-                else if(a == 3){
-                    cout << "three\n";
-                }
-                else if(a == 4){
-                    cout << "four\n";
-                }
-                else if(a == 5){
-                    cout << "five\n";
-                }
-                else if(a == 6){
-                    cout << "six\n";
-                }
-                else if(a == 7){
-                    cout << "seven\n";
-                }
-                else if(a == 8){
-                    cout << "eight\n";
-                }
-                else if(a == 9){
-                    cout << "nine\n";
-                }
-                
-                // for b
-                if(b == 1){
-                    cout << "one\n";
-                }
-                else if(b == 2){
-                    cout << "two\n";
-                }
-                else if(b == 3){
-                    cout << "three\n";
-                }
-                else if(b == 4){
-                    cout << "four\n";
-                }
-                else if(b == 5){
-                    cout << "five\n";
-                }
-                else if(b == 6){
-                    cout << "six\n";
-                }
-                else if(b == 7){
-                    cout << "seven\n";
-                }
-                else if(b == 8){
-                    cout << "eight\n";
-                }
-                else if(b == 9){
-                    cout << "nine\n";
-                } else if(b > 9) {
-                    cout << "nine\n";
-                }
-            //find out even or odd for a
-            if(a%2 == 0){
-                cout << "even\n";
-            } else {
-                cout << "odd\n";
+            case 1:
+            cout << "one\n";
+            if(b <= 1){
+                break;
             }
-
-            //find out even or odd for b
-            if(b%2 == 0){
-                cout << "even";
-            } else {
-                cout << "odd";
+            case 2:
+            cout << "two\n";
+            if(b <= 2){
+                break;
             }
-            
+            case 3:
+            cout << "three\n";
+            if(b <= 3){
+                break;
+            }
+            case 4:
+            cout << "four\n";
+            if(b <= 4){
+                break;
+            }
+            case 5:
+            cout << "five\n";
+            if(b <= 5){
+                break;
+            }
+            case 6:
+            cout << "six\n";
+            if(b <= 6){
+                break;
+            }
+            case 7:
+            cout << "seven\n";
+            if(b <= 7){
+                break;
+            }
+            case 8:
+            cout << "eight\n";
+            if(b <= 8){
+                break;
+            }
+            case 9:
+            cout << "nine\n";
+            if(b <= 9){
+                break;
+            }
         }
-        
     }
-
+    
+    if(b > 9){
+        for(int i = 10; i <= b; i++){
+            if(i%2==0){
+              cout << "even";
+            } else {
+              cout << "odd";
+            }
+        }
+    }
+    
     return 0;
 }
 
