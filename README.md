@@ -10,16 +10,29 @@ Notable competitions
 There are two types of competition formats: short-term and long-term. Each round of short-term competition lasts from 1 to 5 hours. Long-term competitions can last from a few days to a few months.
 
 Short-term
-International Collegiate Programming Contest (ICPC) – one of the oldest competitions, for students of universities in groups of 3 persons each
-International Olympiad in Informatics (IOI) – one of the oldest competitions, for secondary school students
-American Computer Science League (ACSL) – computer science competition with written and programming portions, for middle/high school students
-CodeChef – competition held from 2009, there are three contests held every month[6] and an annual competition called CodeChef SnackDown[7]
-Codeforces Round – typically two hour contest, held every week[8]
-Facebook Hacker Cup – competition held from 2011, provided and sponsored by Facebook
-HackerRank – multiple competitions[9]
-Gridwars – four competitions held between 2003 and 2004.
-Google Code Jam – competition held from 2003, provided and sponsored by Google
-IEEEXtreme Programming Competition[10] – annual competition for IEEE Student Members held since 2006 by IEEE.
-Topcoder Open (TCO) – Algorithm competition held since 2001 by Topcoder
+- International Collegiate Programming Contest (ICPC) – one of the oldest competitions, for students of universities in groups of 3 persons each
+- International Olympiad in Informatics (IOI) – one of the oldest competitions, for secondary school students
+- American Computer Science League (ACSL) – computer science competition with written and programming portions, for middle/high school students
+- CodeChef – competition held from 2009, there are three contests held every month[6] and an annual competition called CodeChef SnackDown[7]
+- Codeforces Round – typically two hour contest, held every week
+- Facebook Hacker Cup – competition held from 2011, provided and sponsored by Facebook
+- HackerRank – multiple competitions[9]
+- Gridwars – four competitions held between 2003 and 2004.
+- Google Code Jam – competition held from 2003, provided and sponsored by Google
+- IEEEXtreme Programming Competition[10] – annual competition for IEEE Student Members held since 2006 by IEEE.
+- Topcoder Open (TCO) – Algorithm competition held since 2001 by Topcoder
+
 In most of the above competitions, since the number of contestants is quite large, competitions are usually organized in several rounds. They usually require online participation in all rounds except the last, which requires onsite participation. A special exception to this is IEEEXtreme, which is a yearly 24-hour virtual programming competition. The top performers at IOI and ICPC receive gold, silver and bronze medals while in the other contests, cash prizes are awarded to the top finishers. Also hitting the top places in the score tables of such competitions may attract interest of recruiters from software and Internet companies.
 
+### Long-term
+HackerRank Week of Code
+ICFP Programming Contest – annual 3-day competition held since 1998 by the International Conference on Functional Programming
+Topcoder Marathon Matches
+Codechef Long Challenges - held every month - lasts up to 10 days
+
+### Artificial intelligence and machine learning
+Kaggle – machine learning competitions.
+CodeCup – board game AI competition held annually since 2003. Game rules get published in September and the final tournament is held in January.
+Google AI Challenge – bi-annual competitions for students that ran 2009 to 2011
+Halite – An AI programming challenge sponsored by Two Sigma, Cornell Tech,and Google
+Russian AI Cup open artificial intelligence programming contest
