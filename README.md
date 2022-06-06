@@ -36,3 +36,11 @@ CodeCup – board game AI competition held annually since 2003. Game rules get p
 Google AI Challenge – bi-annual competitions for students that ran 2009 to 2011
 Halite – An AI programming challenge sponsored by Two Sigma, Cornell Tech,and Google
 Russian AI Cup open artificial intelligence programming contest
+
+
+### Benefits and criticism
+Participation in programming contests may increase student enthusiasm for computer science studies. The skills acquired in ICPC-like programming contests also improve career prospects, as they help to pass the "technical interviews", which often require candidates to solve complex programming and algorithmic problems on the spot.
+
+There has also been criticism of competitive programming, particularly from professional software developers.[31] One critical point is that many fast-paced programming contests teach competitors bad programming habits and code style (like unnecessary use of macros, lack of OOP abstraction and comments, use of short variable names, etc.).[32][31] Also, by offering only small algorithmic puzzles with relatively short solutions, programming contests like ICPC and IOI don't necessarily teach good software engineering skills and practices, as real software projects typically have many thousands of lines of code and are developed by large teams over long periods of time.[31] Peter Norvig stated that based on the available data, being a winner of programming contests correlated negatively with a programmer's performance at their job at Google (even though contest winners had higher chances of getting hired).[33] Norvig later stated that this correlation was observed on a small data set, but that it could not be confirmed after examining a larger data set [34][unreliable source?]
+
+Yet another sentiment is that rather than "wasting" their time on excessive competing by solving problems with known solutions, high-profile programmers should rather invest their time in solving real-world problems.[31]
