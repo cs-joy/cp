@@ -1,80 +1,64 @@
-#include<iostream>
-#include <string>
-#include <cstring>
+#include <bits/stdc++.h>
+#include <string.h>
 
 using namespace std;
 
-void palindromeNumber(){
-    int n, num, digit, rev=0;
+void ispalindrome(){
+    int f, l;
 
-    cout << "Enter a number";
-    cin >> num;
-    n = num;
-    
-    do {
+    int flag=0;
 
-        digit = num % 10;
-        rev = (rev * 10) + digit;
-        num = num / 10;
+    int i;
+    string rev="";
 
-    } while(num != 0);
+    cin >> f >> l;
 
-    cout << " The reverse of the number is: " << rev << endl;
-
-    if(n == rev){
-         cout << " The number is a palindrome.";
-    } else {
-         cout << " The number is not a palindrome.";
+    string str;
+    cout << "enter a string " << str;
+    /*
+    for (i = 0; i < f; i++)
+    {
+        cin >> st[i];
     }
-}
-/*
-void palindromString(){
-    string str, check, reverseCharacter=0, character;
+    */
 
-    cout << "enter a string: ";
-    cin >> str;
+    while (l--)
+    {
+        string notRev="";
+        
+        int n, m;
 
-    check = str;
-    do{
-        character = str % 10;
-        reverseCharacter = (reverseCharacter * 10) + character;
-        str = str / 10;
-    } while(str != 0);
+        cin >> n >> m;
 
-    cout << "rev: " << reverseCharacter;
+        
 
-}
-*/
+        for (i = n - 1; i < m; i++)
+        {
+          
+            notRev[i];
 
-void pS(){
-    char string[20];
-    int length;
-    int flag = 0;
-    
-    printf("Enter a string:");
-    scanf("%s", string);
-    
-    length = strlen(string);
-    
-    for(int i=0;i < length ;i++){
-        if(string[i] != string[length-i-1]){
-            flag = 1;
-            break;
-           }
         }
+
+        for (int i = m - 1; i >= (n - 1); i--)
+        {
     
-    if (flag) {
-        printf("%s is not a palindrome", string);
-    }    
-    else {
-        printf("%s is a palindrome", string);
+           convert[i];
+
+
+        }
+
     }
 }
 
 int main() {
-    
-    //palindromeNumber();
-    pS();
+
+    int T;
+    cin >> T;
+
+    for(int i = 1; i <= T; i++){
+        cout << "Case #" << i <<": ";
+        ispalindrome();
+    }
 
     return 0;
 }
