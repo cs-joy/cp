@@ -2,15 +2,8 @@
 
 using namespace std;
 
+int watson(int ta){
 
-
-int main()
-{
-  int t,ta=1;
- 
-  cin>>t;
-  while(t--)
-  {
       int count=0;
       char in[100];
       int sz,te;
@@ -60,19 +53,32 @@ int main()
            
         }
             if(cflag==Ml)
-    {
-        count+=1;
+              {
+                 count+=1;
 
-    }
+             }
         
     } 
     
     
    
-    cout<<"case #"<<ta<<" :-"<<count<<endl;
-    ta++;
-
+    
+    return count;
   }
+
+
+int main()
+{
+
+        int t,ta=1;
+ 
+  cin>>t;
+  while(t--)
+  {
+    cout<<"case #"<<ta<<" :-"<<watson(ta)<<endl;
+    ta++;
+  }
+  
   
   
     return 0;
