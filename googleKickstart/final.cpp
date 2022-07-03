@@ -83,3 +83,28 @@ int main()
   
     return 0;
 }
+
+/*
+Sample Input::
+2
+7 5
+ABAACCA
+3 6
+4 4
+2 5
+6 7
+3 7
+3 5
+XYZ
+1 3
+1 3
+1 3
+1 3
+1 3
+
+Sample output::
+
+Case #1: 3
+Case #2: 0
+
+*/
